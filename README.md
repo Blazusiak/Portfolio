@@ -1,2 +1,3 @@
 # Portfolio
-A portfolio of my previous projects
+
+Portfolio of my previous projects
