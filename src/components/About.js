@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import {
   MDBRow,
   MDBCol,
@@ -8,9 +8,9 @@ import {
   MDBIcon,
   MDBView,
   MDBBtn
-} from 'mdbreact';
+} from "mdbreact";
 
-import about from '../assets/about.jpg';
+import about from "../assets/about.jpg";
 
 export class About extends Component {
   render() {
@@ -45,12 +45,7 @@ export class About extends Component {
                 utilize visual recognition to apply to plant phenotyping. I have
                 a passion for making people's lives easier with technology.
                 Aside from programming, I have a passion for cinema, photography
-                and cooking. take on both the software programmer and technical
-                product management roles enabled me to experience the best of
-                both worlds; it allowed me to fulfill my passion in driving
-                products forward while also working on enhancing technical
-                features. Going forward, I aspire to continue down the path of
-                both technical management and programming.
+                and cooking.
               </p>
             </MDBCol>
           </MDBRow>

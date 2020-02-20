@@ -11,6 +11,7 @@ import {
 
 import Haptik from "../assets/Haptik.png";
 import NewPee from "../assets/NewPee.png";
+import Phenotyping from "../assets/phenotyping.JPG";
 
 export class Projects extends Component {
   render() {
@@ -53,13 +54,15 @@ export class Projects extends Component {
             </MDBCol>
             <MDBCol lg="4" md="12" className="mb-lg-0 mb-4">
               <MDBView className="overlay rounded z-depth-1" waves>
-                <img src="" alt="" className="img-fluid" />
+                <img src={Phenotyping} alt="" className="img-fluid" />
                 <a href="#!">
                   <MDBMask overlay="white-slight" />
                 </a>
               </MDBView>
               <MDBCardBody className="pb-0">
-                <h4 className="font-weight-bold my-3">Plant Phenotyping</h4>
+                <h4 className="font-weight-bold my-3">
+                  Raspberry Pi Plant Phenotyping
+                </h4>
                 <p className="grey-text">
                   Temporibus autem quibusdam et aut officiis debitis aut rerum
                   necessitatibus saepe eveniet ut et voluptates repudiandae.
