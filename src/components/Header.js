@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import {
   MDBMask,
   MDBRow,
@@ -6,18 +6,20 @@ import {
   MDBBtn,
   MDBView,
   MDBContainer
-} from "mdbreact";
+} from 'mdbreact';
+
+import header from '../assets/header.JPG';
 
 class Header extends Component {
   render() {
     return (
-      <MDBView src={""} fixed>
+      <MDBView src={header} fixed>
         <MDBMask className="rgba-white-light" />
         <MDBContainer className="d-flex justify-content-center align-items-center">
           <MDBRow>
             <MDBCol md="12" className="py-5 white-text text-center">
               <h1 className="display-3 mb-0 pt-md-5 pt-5 white-text font-weight-bold">
-                Jacob{" "}
+                Jacob{' '}
                 <span className="indigo-text font-weight-bold">Blazusiak</span>
               </h1>
               <hr className="hr-light" />

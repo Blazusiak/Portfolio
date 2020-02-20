@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import {
   MDBRow,
   MDBCol,
@@ -8,7 +8,9 @@ import {
   MDBIcon,
   MDBView,
   MDBBtn
-} from "mdbreact";
+} from 'mdbreact';
+
+import about from '../assets/about.jpg';
 
 export class About extends Component {
   render() {
@@ -18,7 +20,7 @@ export class About extends Component {
           <MDBRow>
             <MDBCol lg="5">
               <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
-                <img className="img-fluid" src="" alt="" />
+                <img className="img-fluid" src={about} alt="" />
                 <a href="#!">
                   <MDBMask overlay="white-slight" />
                 </a>
