@@ -1,12 +1,5 @@
 import React, { Component } from "react";
-import {
-  MDBCol,
-  MDBContainer,
-  MDBRow,
-  MDBFooter,
-  MDBBtn,
-  MDBIcon
-} from "mdbreact";
+import { MDBCol, MDBContainer, MDBRow, MDBFooter, MDBIcon } from "mdbreact";
 
 export class Footer extends Component {
   render() {
@@ -15,15 +8,19 @@ export class Footer extends Component {
         <MDBContainer fluid className="text-center">
           <MDBRow>
             <MDBCol>
-              <MDBBtn>
+              <a href="https://www.instagram.com/jBlazusiak/">
                 <MDBIcon fab icon="instagram" size="2x" />
-              </MDBBtn>
-              <MDBBtn>
+              </a>
+            </MDBCol>
+            <MDBCol>
+              <a href="https://github.com/blazusiak/">
                 <MDBIcon fab icon="github" size="2x" />
-              </MDBBtn>
-              <MDBBtn>
+              </a>
+            </MDBCol>
+            <MDBCol>
+              <a href="https://www.linkedin.com/in/jacob-blazusiak/">
                 <MDBIcon fab icon="linkedin" size="2x" />
-              </MDBBtn>
+              </a>
             </MDBCol>
           </MDBRow>
         </MDBContainer>

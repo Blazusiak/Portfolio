@@ -55,9 +55,6 @@ export class Navbar extends Component {
                     <MDBNavLink to="#!">Projects</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="#!">Gallery</MDBNavLink>
-                  </MDBNavItem>
-                  <MDBNavItem>
                     <MDBNavLink to="#!">Contact</MDBNavLink>
                   </MDBNavItem>
                 </MDBNavbarNav>
