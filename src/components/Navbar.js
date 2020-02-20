@@ -1,19 +1,23 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+
 import {
   MDBNavbar,
   MDBNavbarBrand,
   MDBNavbarNav,
   MDBNavItem,
-  MDBNavLink,
   MDBNavbarToggler,
   MDBCollapse,
   MDBContainer
 } from "mdbreact";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export class Navbar extends Component {
   state = {
     collapsed: false
+  };
+
+  scrollToTop = () => {
+    scroll.scrollToTop();
   };
 
   handleTogglerClick = () => {
@@ -26,43 +30,80 @@ export class Navbar extends Component {
     const { collapsed } = this.state;
     return (
       <div>
-        <Router>
-          <MDBNavbar
-            color="primary-color"
-            dark
-            expand="md"
-            fixed="top"
-            scrolling
-            transparent
-          >
-            <MDBContainer>
-              <MDBNavbarBrand>
+        <MDBNavbar color="primary-color" dark expand="md" fixed="top" scrolling>
+          <MDBContainer>
+            <MDBNavbarBrand onClick={this.scrollToTop}>
+              <a>
                 <strong className="white-text">Jacob Blazusiak</strong>
-              </MDBNavbarBrand>
-              <MDBNavbarToggler onClick={this.handleTogglerClick} />
-              <MDBCollapse isOpen={collapsed} navbar>
-                <MDBNavbarNav right>
-                  <MDBNavItem>
-                    <MDBNavLink to="#!">Home</MDBNavLink>
-                  </MDBNavItem>
-                  <MDBNavItem>
-                    <MDBNavLink to="#!">About</MDBNavLink>
-                  </MDBNavItem>
-                  <MDBNavItem>
-                    <MDBNavLink to="#!">Experience</MDBNavLink>
-                  </MDBNavItem>
-                  <MDBNavItem>
-                    <MDBNavLink to="#!">Projects</MDBNavLink>
-                  </MDBNavItem>
-                  <MDBNavItem>
-                    <MDBNavLink to="#!">Contact</MDBNavLink>
-                  </MDBNavItem>
-                </MDBNavbarNav>
-              </MDBCollapse>
-            </MDBContainer>
-          </MDBNavbar>
-          {collapsed}
-        </Router>
+              </a>
+            </MDBNavbarBrand>
+            <MDBNavbarToggler onClick={this.handleTogglerClick} />
+            <MDBCollapse isOpen={collapsed} navbar>
+              <MDBNavbarNav right>
+                <MDBNavItem>
+                  <MDBNavbarBrand onClick={this.scrollToTop}>
+                    <a>Home</a>
+                  </MDBNavbarBrand>
+                </MDBNavItem>
+                <MDBNavbarBrand>
+                  <Link
+                    activeClass="active"
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                  >
+                    About
+                  </Link>
+                </MDBNavbarBrand>
+                <MDBNavItem>
+                  <MDBNavbarBrand>
+                    <Link
+                      activeClass="active"
+                      to="experience"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      Experience
+                    </Link>
+                  </MDBNavbarBrand>
+                </MDBNavItem>
+                <MDBNavItem>
+                  <MDBNavbarBrand>
+                    <Link
+                      activeClass="active"
+                      to="projects"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      Projects
+                    </Link>
+                  </MDBNavbarBrand>
+                </MDBNavItem>
+                <MDBNavItem>
+                  <MDBNavbarBrand>
+                    <Link
+                      activeClass="active"
+                      to="contact"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      Contact
+                    </Link>
+                  </MDBNavbarBrand>
+                </MDBNavItem>
+              </MDBNavbarNav>
+            </MDBCollapse>
+          </MDBContainer>
+        </MDBNavbar>
+        {collapsed}
       </div>
     );
   }

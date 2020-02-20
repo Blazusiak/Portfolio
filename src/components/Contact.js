@@ -18,7 +18,10 @@ export class Contact extends Component {
   render() {
     return (
       <>
-        <h2 className="h1-responsive font-weight-bold text-center my-5">
+        <h2
+          className="h1-responsive font-weight-bold text-center my-5"
+          id="contact"
+        >
           Contact Information
         </h2>
         <MDBCard className="my-5 mx-5 px-5 pb-5 pt-5">

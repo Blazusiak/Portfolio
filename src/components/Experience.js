@@ -27,7 +27,10 @@ export class Experience extends Component {
   render() {
     return (
       <>
-        <h2 className="h1-responsive font-weight-bold text-center my-5">
+        <h2
+          className="h1-responsive font-weight-bold text-center my-5"
+          id="experience"
+        >
           Experience
         </h2>
         <MDBCard className="my-5 mx-5 px-5 pb-5 pt-5">
@@ -38,6 +41,7 @@ export class Experience extends Component {
                   <TimelineItem
                     key="001"
                     dateText="May 2018 – August 2019"
+                    dateInnerStyle={{ background: "#007C41" }}
                     bodyContainerStyle={{
                       padding: "20px",
                       boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)"
@@ -70,6 +74,7 @@ export class Experience extends Component {
                   <TimelineItem
                     key="002"
                     dateText="May 2017 – Dec 2017"
+                    dateInnerStyle={{ background: "#89CFF0" }}
                     bodyContainerStyle={{
                       padding: "20px",
                       boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)"

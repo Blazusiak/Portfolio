@@ -11,7 +11,9 @@ export class Projects extends Component {
       <div>
         {" "}
         <section className="text-center my-5 mx-5">
-          <h2 className="h1-responsive font-weight-bold my-5">Projects</h2>
+          <h2 className="h1-responsive font-weight-bold my-5" id="projects">
+            Projects
+          </h2>
 
           <MDBRow className="text-center mx-5">
             <MDBCol lg="4" md="12" className="mb-lg-0 mb-4">
