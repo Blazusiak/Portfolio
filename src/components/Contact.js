@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import {
   MDBRow,
   MDBCol,
@@ -7,8 +7,12 @@ import {
   MDBCardBody,
   MDBIcon,
   MDBBtn,
-  MDBInput
-} from "mdbreact";
+  MDBInput,
+  MDBView,
+  MDBMask
+} from 'mdbreact';
+
+import intro from '../assets/end.jpg';
 
 export class Contact extends Component {
   render() {
@@ -18,7 +22,15 @@ export class Contact extends Component {
           Contact Information
         </h2>
         <MDBRow>
-          <MDBCol md="9" className="md-0 mb-5">
+          <MDBCol md="5" className="text-center">
+            <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
+              <img className="img-fluid" src={intro} alt="" />
+              <a href="#!">
+                <MDBMask overlay="white-slight" />
+              </a>
+            </MDBView>
+          </MDBCol>
+          <MDBCol md="4" className="md-0 mb-5">
             <form>
               <MDBRow>
                 <MDBCol md="6">
@@ -65,6 +77,7 @@ export class Contact extends Component {
               </MDBBtn>
             </div>
           </MDBCol>
+
           <MDBCol md="3" className="text-center">
             <ul className="list-unstyled mb-0">
               <li>
