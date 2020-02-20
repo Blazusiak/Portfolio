@@ -1,17 +1,9 @@
 import React, { Component } from "react";
-import {
-  MDBRow,
-  MDBCol,
-  MDBCardBody,
-  MDBIcon,
-  MDBBtn,
-  MDBView,
-  MDBMask
-} from "mdbreact";
+import { MDBRow, MDBCol, MDBCardBody, MDBView, MDBMask } from "mdbreact";
 
-import Haptik from "../assets/Haptik.png";
-import NewPee from "../assets/NewPee.png";
-import Phenotyping from "../assets/phenotyping.JPG";
+import Haptik from "../assets/haptik.png";
+import NewPee from "../assets/newpee.png";
+import Phenotyping from "../assets/phenotyping.jpg";
 
 export class Projects extends Component {
   render() {

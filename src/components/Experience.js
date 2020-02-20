@@ -9,6 +9,7 @@ import {
   MDBView,
   MDBBtn
 } from "mdbreact";
+import { Timeline, TimelineItem } from "vertical-timeline-component-for-react";
 
 import { ReactComponent as Angularjs } from "../assets/angularjs.svg";
 import { ReactComponent as C } from "../assets/c.svg";
@@ -33,12 +34,71 @@ export class Experience extends Component {
           <MDBCardBody>
             <MDBRow>
               <MDBCol lg="7">
-                <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
+                <Timeline lineColor={"#ddd"}>
+                  <TimelineItem
+                    key="001"
+                    dateText="May 2018 – August 2019"
+                    bodyContainerStyle={{
+                      padding: "20px",
+                      boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)"
+                    }}
+                  >
+                    <h3>University of Alberta</h3>
+                    <h4>Junior Research Analyst</h4>
+                    <p>
+                      Est incididunt sint eu minim dolore mollit velit velit
+                      commodo ex nulla exercitation. Veniam velit adipisicing
+                      anim excepteur nostrud magna nostrud aliqua dolor. Sunt
+                      aute est duis ut nulla officia irure reprehenderit laborum
+                      fugiat dolore in elit. Adipisicing do qui duis Lorem est.
+                    </p>
+                    <p>
+                      Est incididunt sint eu minim dolore mollit velit velit
+                      commodo ex nulla exercitation. Veniam velit adipisicing
+                      anim excepteur nostrud magna nostrud aliqua dolor. Sunt
+                      aute est duis ut nulla officia irure reprehenderit laborum
+                      fugiat dolore in elit. Adipisicing do qui duis Lorem est.
+                    </p>
+                    <p>
+                      Est incididunt sint eu minim dolore mollit velit velit
+                      commodo ex nulla exercitation. Veniam velit adipisicing
+                      anim excepteur nostrud magna nostrud aliqua dolor. Sunt
+                      aute est duis ut nulla officia irure reprehenderit laborum
+                      fugiat dolore in elit. Adipisicing do qui duis Lorem est.
+                    </p>
+                  </TimelineItem>
+                  <TimelineItem
+                    key="002"
+                    dateText="May 2017 – Dec 2017"
+                    bodyContainerStyle={{
+                      padding: "20px",
+                      boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)"
+                    }}
+                  >
+                    <h3>StatGo</h3>
+                    <h4>Web Developer</h4>
+                    <p>
+                      Est incididunt sint eu minim dolore mollit velit velit
+                      commodo ex nulla exercitation. Veniam velit adipisicing
+                      anim excepteur nostrud magna nostrud aliqua dolor. Sunt
+                      aute est duis ut nulla officia irure reprehenderit laborum
+                      fugiat dolore in elit. Adipisicing do qui duis Lorem est.
+                    </p>
+                    <p>
+                      Est incididunt sint eu minim dolore mollit velit velit
+                      commodo ex nulla exercitation. Veniam velit adipisicing
+                      anim excepteur nostrud magna nostrud aliqua dolor. Sunt
+                      aute est duis ut nulla officia irure reprehenderit laborum
+                      fugiat dolore in elit. Adipisicing do qui duis Lorem est.
+                    </p>
+                  </TimelineItem>
+                </Timeline>
+                {/* <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
                   <img className="img-fluid" src="" alt="" />
                   <a href="#!">
                     <MDBMask overlay="white-slight" />
                   </a>
-                </MDBView>
+                </MDBView> */}
               </MDBCol>
               <MDBCol lg="5">
                 <h3 className="font-weight-bold text-center mb-3 p-0">

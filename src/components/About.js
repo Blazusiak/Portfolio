@@ -51,6 +51,8 @@ export class About extends Component {
                   technology. Aside from programming, I have a passion for
                   cinema, photography and cooking.
                 </p>
+                <MDBBtn>Resume</MDBBtn>
+                <MDBBtn>Contact</MDBBtn>
               </MDBCol>
             </MDBRow>
           </MDBCardBody>
