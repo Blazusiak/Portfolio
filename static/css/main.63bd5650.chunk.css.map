@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AACA,oBACE,aACF,CAEA,iBACE,aACF,CAEA,mBACE,aACF","file":"main.63bd5650.chunk.css","sourcesContent":["/* Social Colors */\n.fa-instagram:hover {\n  color: #d6249f;\n}\n\n.fa-github:hover {\n  color: #24292e;\n}\n\n.fa-linkedin:hover {\n  color: #0e76a8;\n}\n"]}
