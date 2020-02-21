@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import { MDBRow, MDBCol, MDBCardBody, MDBView, MDBMask } from "mdbreact";
+import React, { Component } from 'react';
+import { MDBRow, MDBCol, MDBCardBody, MDBView, MDBMask } from 'mdbreact';
 
-import Haptik from "../assets/haptik.png";
-import NewPee from "../assets/newpee.png";
-import Phenotyping from "../assets/phenotyping.jpg";
+import Haptik from '../assets/haptik.png';
+import NewPee from '../assets/newpee.png';
+import Phenotyping from '../assets/phenotyping.jpg';
 
 export class Projects extends Component {
   render() {
@@ -23,8 +23,9 @@ export class Projects extends Component {
             <MDBCardBody className="pb-0">
               <h4 className="font-weight-bold my-3">Haptik</h4>
               <p className="grey-text">
-                Temporibus autem quibusdam et aut officiis debitis aut rerum
-                necessitatibus saepe eveniet ut et voluptates repudiandae.
+                Web application used to document essential moments during
+                resuscitation simulations. Adopted design techniques to simplify
+                an otherwise stressful and overwhelming task.
               </p>
             </MDBCardBody>
           </MDBCol>
@@ -38,8 +39,8 @@ export class Projects extends Component {
             <MDBCardBody className="pb-0">
               <h4 className="font-weight-bold my-3">NewPee</h4>
               <p className="grey-text">
-                Temporibus autem quibusdam et aut officiis debitis aut rerum
-                necessitatibus saepe eveniet ut et voluptates repudiandae.
+                A distributed social network web application built using Django.
+                Utilized continuous integration and API integration.
               </p>
             </MDBCardBody>
           </MDBCol>
@@ -55,8 +56,14 @@ export class Projects extends Component {
                 Raspberry Pi Plant Phenotyping
               </h4>
               <p className="grey-text">
-                Temporibus autem quibusdam et aut officiis debitis aut rerum
-                necessitatibus saepe eveniet ut et voluptates repudiandae.
+                A joint project between the University of Alberta and G2V
+                Optics, analyzing the growth of plants based on various light
+                conditions using visual recognition. Responsibilities included
+                creating a custom physical environment to mount the Raspberry
+                Pi’s and designing a robust system to sync data across multiple
+                chambers to a central server. Data primarily consisted of
+                images, which would eventually be piped through PlantCV for
+                image analysis.
               </p>
             </MDBCardBody>
           </MDBCol>

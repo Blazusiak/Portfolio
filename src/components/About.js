@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import {
   MDBRow,
   MDBCol,
@@ -8,9 +8,9 @@ import {
   MDBIcon,
   MDBView,
   MDBBtn
-} from "mdbreact";
+} from 'mdbreact';
 
-import about from "../assets/about.jpg";
+import about from '../assets/about.jpg';
 
 export class About extends Component {
   render() {
@@ -40,14 +40,19 @@ export class About extends Component {
                   university I have had the opporutunity to work on all kinds of
                   projects ranging from fields in medicine to visual recognition
                   to video games. It has been a blast and I wouldn't change it
-                  for anything else. I love how computing science can be applied
-                  to every field, and I love learning about other fields in the
-                  process of helping others. I was able to do this on a few
-                  occasions such as when my group and I worked on a project for
-                  a doctor to track important information during a resuscitation
-                  simulation. As well as working with biologists on a project to
-                  utilize visual recognition to apply to plant phenotyping. I
-                  have a passion for making people's lives easier with
+                  for anything else.
+                </p>
+                <p>
+                  I love how computing science can be applied to every field,
+                  and I love learning about other fields in the process of
+                  helping others. I was able to do this on a few occasions such
+                  as when my group and I worked on a project for a doctor to
+                  track important information during a resuscitation simulation.
+                  As well as working with biologists on a project to utilize
+                  visual recognition to apply to plant phenotyping.
+                </p>
+                <p>
+                  I have a passion for making people's lives easier with
                   technology. Aside from programming, I have a passion for
                   cinema, photography and cooking.
                 </p>
