@@ -26,11 +26,8 @@ import { ReactComponent as Sqlite } from "../assets/sqlite.svg";
 export class Experience extends Component {
   render() {
     return (
-      <>
-        <h2
-          className="h1-responsive font-weight-bold text-center my-5"
-          id="experience"
-        >
+      <div id="experience">
+        <h2 className="h1-responsive font-weight-bold text-center my-5">
           Experience
         </h2>
         <MDBCard className="my-5 mx-5 px-5 pb-5 pt-5">
@@ -74,7 +71,7 @@ export class Experience extends Component {
                   <TimelineItem
                     key="002"
                     dateText="May 2017 – Dec 2017"
-                    dateInnerStyle={{ background: "#89CFF0" }}
+                    dateInnerStyle={{ background: "#0099CC" }}
                     bodyContainerStyle={{
                       padding: "20px",
                       boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)"
@@ -98,12 +95,6 @@ export class Experience extends Component {
                     </p>
                   </TimelineItem>
                 </Timeline>
-                {/* <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
-                  <img className="img-fluid" src="" alt="" />
-                  <a href="#!">
-                    <MDBMask overlay="white-slight" />
-                  </a>
-                </MDBView> */}
               </MDBCol>
               <MDBCol lg="5">
                 <h3 className="font-weight-bold text-center mb-3 p-0">
@@ -154,7 +145,7 @@ export class Experience extends Component {
             </MDBRow>
           </MDBCardBody>
         </MDBCard>
-      </>
+      </div>
     );
   }
 }

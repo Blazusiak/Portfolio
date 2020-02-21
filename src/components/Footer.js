@@ -1,33 +1,34 @@
 import React, { Component } from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter, MDBIcon } from "mdbreact";
+import { MDBFooter, MDBIcon } from "mdbreact";
 
 export class Footer extends Component {
   render() {
     return (
-      <MDBFooter color="blue" className="font-small pt-4 mt-4">
-        <MDBContainer fluid className="text-center">
-          <MDBRow>
-            <MDBCol>
+      <MDBFooter color="rgba-green-strong" className="font-small pt-4 mt-4">
+        <div className="text-center">
+          <ul className="list-unstyled list-inline">
+            <li className="list-inline-item mx-3 px-3">
               <a href="https://www.instagram.com/jBlazusiak/">
                 <MDBIcon fab icon="instagram" size="2x" />
               </a>
-            </MDBCol>
-            <MDBCol>
-              <a href="https://github.com/blazusiak/">
+            </li>
+            <li className="list-inline-item mx-3 px-3">
+              <a href="https://github.com/blazusiak/" id="github">
                 <MDBIcon fab icon="github" size="2x" />
               </a>
-            </MDBCol>
-            <MDBCol>
-              <a href="https://www.linkedin.com/in/jacob-blazusiak/">
+            </li>
+            <li className="list-inline-item mx-3 px-3">
+              <a
+                href="https://www.linkedin.com/in/jacob-blazusiak/"
+                id="linkedin"
+              >
                 <MDBIcon fab icon="linkedin" size="2x" />
               </a>
-            </MDBCol>
-          </MDBRow>
-        </MDBContainer>
-        <div className="footer-copyright text-center py-3">
-          <MDBContainer fluid>
-            &copy; {new Date().getFullYear()} Jacob Blazusiak
-          </MDBContainer>
+            </li>
+          </ul>
+        </div>
+        <div className="text-center pb-1">
+          &copy; {new Date().getFullYear()} Jacob Blazusiak
         </div>
       </MDBFooter>
     );

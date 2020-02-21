@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-
 import {
   MDBNavbar,
   MDBNavbarBrand,
   MDBNavbarNav,
-  MDBNavItem,
   MDBNavbarToggler,
   MDBCollapse,
   MDBContainer
@@ -20,6 +18,10 @@ export class Navbar extends Component {
     scroll.scrollToTop();
   };
 
+  scrollToBottom = () => {
+    scroll.scrollToBottom();
+  };
+
   handleTogglerClick = () => {
     this.setState({
       collapsed: !this.state.collapsed
@@ -30,7 +32,13 @@ export class Navbar extends Component {
     const { collapsed } = this.state;
     return (
       <div>
-        <MDBNavbar color="primary-color" dark expand="md" fixed="top" scrolling>
+        <MDBNavbar
+          color="rgba-green-strong"
+          dark
+          expand="md"
+          fixed="top"
+          scrolling
+        >
           <MDBContainer>
             <MDBNavbarBrand onClick={this.scrollToTop}>
               <a>
@@ -40,65 +48,65 @@ export class Navbar extends Component {
             <MDBNavbarToggler onClick={this.handleTogglerClick} />
             <MDBCollapse isOpen={collapsed} navbar>
               <MDBNavbarNav right>
-                <MDBNavItem>
-                  <MDBNavbarBrand onClick={this.scrollToTop}>
-                    <a>Home</a>
-                  </MDBNavbarBrand>
-                </MDBNavItem>
-                <MDBNavbarBrand>
-                  <Link
-                    activeClass="active"
-                    to="about"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                  >
-                    About
-                  </Link>
-                </MDBNavbarBrand>
-                <MDBNavItem>
-                  <MDBNavbarBrand>
-                    <Link
-                      activeClass="active"
-                      to="experience"
-                      spy={true}
-                      smooth={true}
-                      offset={-70}
-                      duration={500}
-                    >
-                      Experience
-                    </Link>
-                  </MDBNavbarBrand>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavbarBrand>
-                    <Link
-                      activeClass="active"
-                      to="projects"
-                      spy={true}
-                      smooth={true}
-                      offset={-70}
-                      duration={500}
-                    >
-                      Projects
-                    </Link>
-                  </MDBNavbarBrand>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavbarBrand>
-                    <Link
-                      activeClass="active"
-                      to="contact"
-                      spy={true}
-                      smooth={true}
-                      offset={-70}
-                      duration={500}
-                    >
-                      Contact
-                    </Link>
-                  </MDBNavbarBrand>
-                </MDBNavItem>
+                <Link
+                  activeClass="active"
+                  className="nav-link"
+                  to="home"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Home
+                </Link>
+
+                <Link
+                  activeClass="active"
+                  className="nav-link"
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  About
+                </Link>
+
+                <Link
+                  activeClass="active"
+                  className="nav-link"
+                  to="experience"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Experience
+                </Link>
+
+                <Link
+                  activeClass="active"
+                  className="nav-link"
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Projects
+                </Link>
+
+                <Link
+                  activeClass="active"
+                  className="nav-link"
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Contact
+                </Link>
               </MDBNavbarNav>
             </MDBCollapse>
           </MDBContainer>

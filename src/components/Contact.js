@@ -17,11 +17,8 @@ import contact from "../assets/contact.jpg";
 export class Contact extends Component {
   render() {
     return (
-      <>
-        <h2
-          className="h1-responsive font-weight-bold text-center my-5"
-          id="contact"
-        >
+      <div id="contact">
+        <h2 className="h1-responsive font-weight-bold text-center my-5">
           Contact Information
         </h2>
         <MDBCard className="my-5 mx-5 px-5 pb-5 pt-5">
@@ -109,16 +106,13 @@ export class Contact extends Component {
               </MDBCol>
               <MDBCol md="5" className="text-center">
                 <MDBView className="rounded z-depth-2 mb-lg-0" hover waves>
-                  <img className="img-fluid" src={contact} alt="" />
-                  <a href="#!">
-                    <MDBMask overlay="white-slight" />
-                  </a>
+                  <img className="img-fluid" src={contact} alt="drumheller" />
                 </MDBView>
               </MDBCol>
             </MDBRow>
           </MDBCardBody>
         </MDBCard>
-      </>
+      </div>
     );
   }
 }

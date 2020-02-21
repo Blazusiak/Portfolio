@@ -15,11 +15,8 @@ import about from "../assets/about.jpg";
 export class About extends Component {
   render() {
     return (
-      <>
-        <h2
-          className="h1-responsive font-weight-bold text-center my-5"
-          id="about"
-        >
+      <div id="about">
+        <h2 className="h1-responsive font-weight-bold text-center my-5">
           About
         </h2>
         <MDBCard className="my-5 mx-5 px-5 pb-5 pt-5">
@@ -54,13 +51,19 @@ export class About extends Component {
                   technology. Aside from programming, I have a passion for
                   cinema, photography and cooking.
                 </p>
-                <MDBBtn>Resume</MDBBtn>
-                <MDBBtn>Contact</MDBBtn>
+                <MDBBtn>
+                  <MDBIcon far icon="file" className="pr-3" />
+                  Resume
+                </MDBBtn>
+                <MDBBtn href="mailto:jblazusi@ualberta.ca">
+                  <MDBIcon icon="envelope" className="pr-3" />
+                  Contact
+                </MDBBtn>
               </MDBCol>
             </MDBRow>
           </MDBCardBody>
         </MDBCard>
-      </>
+      </div>
     );
   }
 }
