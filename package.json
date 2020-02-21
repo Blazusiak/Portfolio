@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://blazusiak.github.io",
+  "homepage": "https://blazusiak.me",
   "dependencies": {
     "mdbreact": "^4.23.0",
     "react": "^16.12.0",
