@@ -1,20 +1,26 @@
 import React, { Component } from "react";
-import { MDBFooter, MDBIcon } from "mdbreact";
+import { MDBFooter } from "mdbreact";
 
 export class Footer extends Component {
   render() {
     return (
-      <MDBFooter color="rgba-green-strong" className="font-small pt-4 mt-4">
+      <MDBFooter color="blue" className="font-small pt-4 mt-4">
         <div className="text-center">
           <ul className="list-unstyled list-inline">
             <li className="list-inline-item mx-3 px-3">
               <a href="https://www.instagram.com/jBlazusiak/">
-                <MDBIcon fab icon="instagram" size="2x" />
+                <span class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                  <i class="fab fa-instagram fa-stack-1x"></i>
+                </span>
               </a>
             </li>
             <li className="list-inline-item mx-3 px-3">
               <a href="https://github.com/blazusiak/" id="github">
-                <MDBIcon fab icon="github" size="2x" />
+                <span class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                  <i class="fab fa-github fa-stack-1x"></i>
+                </span>
               </a>
             </li>
             <li className="list-inline-item mx-3 px-3">
@@ -22,7 +28,10 @@ export class Footer extends Component {
                 href="https://www.linkedin.com/in/jacob-blazusiak/"
                 id="linkedin"
               >
-                <MDBIcon fab icon="linkedin" size="2x" />
+                <span class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                  <i class="fab fa-linkedin fa-stack-1x"></i>
+                </span>
               </a>
             </li>
           </ul>

@@ -32,13 +32,7 @@ export class Navbar extends Component {
     const { collapsed } = this.state;
     return (
       <div>
-        <MDBNavbar
-          color="rgba-green-strong"
-          dark
-          expand="md"
-          fixed="top"
-          scrolling
-        >
+        <MDBNavbar color="blue" dark expand="md" fixed="top" scrolling>
           <MDBContainer>
             <MDBNavbarBrand onClick={this.scrollToTop}>
               <a>

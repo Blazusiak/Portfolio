@@ -10,3 +10,20 @@
 .fa-linkedin:hover {
   color: #0e76a8;
 }
+
+.fa-stack .fa {
+  color: #ffffff;
+}
+.fa-stack .fa.fa-circle-thin {
+  color: #ffffff;
+}
+.fa-stack .fa.fa-circle {
+  opacity: 0;
+  color: #ffffff;
+}
+.fa-stack:hover .fa.fa-circle-thin {
+  color: #ffffff;
+}
+.fa-stack:hover .fa.fa-circle {
+  opacity: 1;
+}
