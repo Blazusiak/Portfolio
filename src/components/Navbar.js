@@ -35,9 +35,7 @@ export class Navbar extends Component {
         <MDBNavbar color="blue" dark expand="md" fixed="top" scrolling>
           <MDBContainer>
             <MDBNavbarBrand onClick={this.scrollToTop}>
-              <a>
-                <strong className="white-text">Jacob Blazusiak</strong>
-              </a>
+              <strong className="white-text">Jacob Blazusiak</strong>
             </MDBNavbarBrand>
             <MDBNavbarToggler onClick={this.handleTogglerClick} />
             <MDBCollapse isOpen={collapsed} navbar>

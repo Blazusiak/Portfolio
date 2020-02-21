@@ -9,17 +9,17 @@ export class Footer extends Component {
           <ul className="list-unstyled list-inline">
             <li className="list-inline-item mx-3 px-3">
               <a href="https://www.instagram.com/jBlazusiak/">
-                <span class="fa-stack fa-2x">
-                  <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                  <i class="fab fa-instagram fa-stack-1x"></i>
+                <span className="fa-stack fa-2x">
+                  <i className="fa fa-circle fa-stack-2x icon-background"></i>
+                  <i className="fab fa-instagram fa-stack-1x"></i>
                 </span>
               </a>
             </li>
             <li className="list-inline-item mx-3 px-3">
               <a href="https://github.com/blazusiak/" id="github">
-                <span class="fa-stack fa-2x">
-                  <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                  <i class="fab fa-github fa-stack-1x"></i>
+                <span className="fa-stack fa-2x">
+                  <i className="fa fa-circle fa-stack-2x icon-background"></i>
+                  <i className="fab fa-github fa-stack-1x"></i>
                 </span>
               </a>
             </li>
@@ -28,9 +28,9 @@ export class Footer extends Component {
                 href="https://www.linkedin.com/in/jacob-blazusiak/"
                 id="linkedin"
               >
-                <span class="fa-stack fa-2x">
-                  <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                  <i class="fab fa-linkedin fa-stack-1x"></i>
+                <span className="fa-stack fa-2x">
+                  <i className="fa fa-circle fa-stack-2x icon-background"></i>
+                  <i className="fab fa-linkedin fa-stack-1x"></i>
                 </span>
               </a>
             </li>

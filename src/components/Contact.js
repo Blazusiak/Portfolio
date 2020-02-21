@@ -2,14 +2,12 @@ import React, { Component } from "react";
 import {
   MDBRow,
   MDBCol,
-  MDBContainer,
   MDBCard,
   MDBCardBody,
   MDBIcon,
   MDBBtn,
   MDBInput,
-  MDBView,
-  MDBMask
+  MDBView
 } from "mdbreact";
 
 import contact from "../assets/contact.jpg";
@@ -75,7 +73,6 @@ export class Contact extends Component {
                   </MDBBtn>
                 </div>
               </MDBCol>
-
               <MDBCol md="3" className="text-center md-0 mb-5">
                 <ul className="list-unstyled mt-5">
                   <li>

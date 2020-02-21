@@ -1,14 +1,5 @@
 import React, { Component } from "react";
-import {
-  MDBRow,
-  MDBCol,
-  MDBCard,
-  MDBCardBody,
-  MDBCardTitle,
-  MDBListGroup,
-  MDBListGroupItem,
-  MDBContainer
-} from "mdbreact";
+import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBCardTitle } from "mdbreact";
 import { Timeline, TimelineItem } from "vertical-timeline-component-for-react";
 
 import { ReactComponent as Angularjs } from "../assets/angularjs.svg";
@@ -45,9 +36,11 @@ export class Experience extends Component {
                     dateText="May 2018 – Aug 2019"
                     dateInnerStyle={{ background: "#007C41" }}
                   >
-                    <MDBCard className="mx-5 px-5 pb-5 pt-5">
-                      <MDBCardTitle>Junior Research Analyst</MDBCardTitle>
-                      <MDBCardTitle>University of Alberta</MDBCardTitle>
+                    <MDBCard className="px-5 pb-5 pt-5">
+                      <MDBCardTitle>
+                        UofA - <cite>Junior Research Analyst</cite>
+                      </MDBCardTitle>
+
                       <ul className="pt-2">
                         <li>
                           Collaborated in an interdisciplinary project
@@ -73,9 +66,10 @@ export class Experience extends Component {
                     dateText="May 2017 – Dec 2017"
                     dateInnerStyle={{ background: "#0099CC" }}
                   >
-                    <MDBCard className="mx-5 px-5 pb-5 pt-5">
-                      <MDBCardTitle>Web Developer</MDBCardTitle>
-                      <MDBCardTitle>StatGo</MDBCardTitle>
+                    <MDBCard className="px-5 pb-5 pt-5">
+                      <MDBCardTitle>
+                        StatGo - <cite>Web Developer</cite>
+                      </MDBCardTitle>
                       <ul className="pt-2">
                         <li>
                           Refactored the web application to use Material Design

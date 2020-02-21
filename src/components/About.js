@@ -35,32 +35,29 @@ export class About extends Component {
                   <strong>Welcome!</strong>
                 </h3>
                 <p>
-                  I am currently in my final year in Specialization of Computer
-                  Science at University of Alberta. During my time at the
-                  university I have had the opporutunity to work on all kinds of
-                  projects ranging from fields in medicine to visual recognition
-                  to video games. It has been a blast and I wouldn't change it
-                  for anything else.
+                  My name is Jacob, and I am currently in my final year of
+                  Computing Science at University of Alberta. During my time at
+                  the university I have had the opporutunity to work on all
+                  kinds of projects ranging in fields as broad as medicine to
+                  video games. It has been a blast and I wouldn't change it for
+                  anything else.
                 </p>
                 <p>
                   I love how computing science can be applied to every field,
-                  and I love learning about other fields in the process of
-                  helping others. I was able to do this on a few occasions such
-                  as when my group and I worked on a project for a doctor to
-                  track important information during a resuscitation simulation.
-                  As well as working with biologists on a project to utilize
-                  visual recognition to apply to plant phenotyping.
+                  and how it gives me exposure to different areas of study.
+                  Seeing the joy on faces, when a tedious task can be automized
+                  or made simpler is an absolute pleasure. I was able to do this
+                  on a few occasions such as when I worked on a project for a
+                  doctor to assist in tracking important information during
+                  resuscitation simulations. As well as working with biologists
+                  at the University of Alberta, to use visual recognition in
+                  their plant phenotyping research.
                 </p>
                 <p>
-                  I have a passion for making people's lives easier with
-                  technology. Aside from programming, I have a passion for
-                  cinema, photography and cooking.
+                  Aside from programming, I have a passion for cinema,
+                  photography and cooking.
                 </p>
-                <MDBBtn
-                  color="blue"
-                  href="/images/myw3schoolsimage.jpg"
-                  download
-                >
+                <MDBBtn color="blue" href="UPDATE LINK" download>
                   <MDBIcon far icon="file" className="pr-3" />
                   Resume
                 </MDBBtn>
