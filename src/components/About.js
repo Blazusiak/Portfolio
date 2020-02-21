@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import {
   MDBRow,
   MDBCol,
@@ -8,9 +8,9 @@ import {
   MDBIcon,
   MDBView,
   MDBBtn
-} from 'mdbreact';
+} from "mdbreact";
 
-import about from '../assets/about.jpg';
+import about from "../assets/about.jpg";
 
 export class About extends Component {
   render() {
@@ -56,11 +56,15 @@ export class About extends Component {
                   technology. Aside from programming, I have a passion for
                   cinema, photography and cooking.
                 </p>
-                <MDBBtn>
+                <MDBBtn
+                  color="blue"
+                  href="/images/myw3schoolsimage.jpg"
+                  download
+                >
                   <MDBIcon far icon="file" className="pr-3" />
                   Resume
                 </MDBBtn>
-                <MDBBtn href="mailto:jblazusi@ualberta.ca">
+                <MDBBtn color="blue" href="mailto:jblazusi@ualberta.ca">
                   <MDBIcon icon="envelope" className="pr-3" />
                   Contact
                 </MDBBtn>

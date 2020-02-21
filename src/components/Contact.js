@@ -17,7 +17,7 @@ import contact from "../assets/contact.jpg";
 export class Contact extends Component {
   render() {
     return (
-      <div id="contact">
+      <div className="pb-5 pt-5" id="contact">
         <h2 className="h1-responsive font-weight-bold text-center my-5">
           Contact Information
         </h2>
