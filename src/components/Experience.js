@@ -38,7 +38,7 @@ export class Experience extends Component {
                   >
                     <MDBCard className="px-5 pb-5 pt-5">
                       <MDBCardTitle>
-                        UofA - <cite>Junior Research Analyst</cite>
+                        UofA - <cite>Research Analyst</cite>
                       </MDBCardTitle>
 
                       <ul className="pt-2">
@@ -54,9 +54,7 @@ export class Experience extends Component {
                           Researched new technologies and IT solutions for the
                           University
                         </li>
-                        <li>
-                          Designed custom 3D prints for researcher projects
-                        </li>
+                        <li>Designed custom 3D prints for research projects</li>
                         <li>Documented and tracked issues using ServiceNow</li>
                       </ul>
                     </MDBCard>
