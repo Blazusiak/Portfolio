@@ -1,23 +1,23 @@
-import React, { Component } from "react";
-import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBCardTitle } from "mdbreact";
-import { Timeline, TimelineItem } from "vertical-timeline-component-for-react";
+import React, { Component } from 'react';
+import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBCardTitle } from 'mdbreact';
+import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 
-import { ReactComponent as Angularjs } from "../assets/angularjs.svg";
-import { ReactComponent as Bootstrap } from "../assets/bootstrap.svg";
-import { ReactComponent as Cplusplus } from "../assets/cplusplus.svg";
-import { ReactComponent as Digitalocean } from "../assets/digitalocean.svg";
-import { ReactComponent as Django } from "../assets/django.svg";
-import { ReactComponent as Docker } from "../assets/docker.svg";
-import { ReactComponent as Java } from "../assets/java.svg";
-import { ReactComponent as Javascript } from "../assets/javascript.svg";
-import { ReactComponent as Jquery } from "../assets/jquery.svg";
-import { ReactComponent as Mongodb } from "../assets/mongodb.svg";
-import { ReactComponent as Nginx } from "../assets/nginx.svg";
-import { ReactComponent as Nodejs } from "../assets/nodejs.svg";
-import { ReactComponent as Postgresql } from "../assets/postgresql.svg";
-import { ReactComponent as Python } from "../assets/python.svg";
-import { ReactComponent as Reactjs } from "../assets/reactjs.svg";
-import { ReactComponent as Travisci } from "../assets/travisci.svg";
+import { ReactComponent as Angularjs } from '../assets/angularjs.svg';
+import { ReactComponent as Bootstrap } from '../assets/bootstrap.svg';
+import { ReactComponent as Cplusplus } from '../assets/cplusplus.svg';
+import { ReactComponent as Digitalocean } from '../assets/digitalocean.svg';
+import { ReactComponent as Django } from '../assets/django.svg';
+import { ReactComponent as Docker } from '../assets/docker.svg';
+import { ReactComponent as Java } from '../assets/java.svg';
+import { ReactComponent as Javascript } from '../assets/javascript.svg';
+import { ReactComponent as Jquery } from '../assets/jquery.svg';
+import { ReactComponent as Mongodb } from '../assets/mongodb.svg';
+import { ReactComponent as Nginx } from '../assets/nginx.svg';
+import { ReactComponent as Nodejs } from '../assets/nodejs.svg';
+import { ReactComponent as Postgresql } from '../assets/postgresql.svg';
+import { ReactComponent as Python } from '../assets/python.svg';
+import { ReactComponent as Reactjs } from '../assets/reactjs.svg';
+import { ReactComponent as Travisci } from '../assets/travisci.svg';
 
 export class Experience extends Component {
   render() {
@@ -30,11 +30,11 @@ export class Experience extends Component {
           <MDBCardBody>
             <MDBRow>
               <MDBCol md="7">
-                <Timeline lineColor={"#ddd"}>
+                <Timeline lineColor={'#ddd'}>
                   <TimelineItem
                     key="001"
                     dateText="May 2018 – Aug 2019"
-                    dateInnerStyle={{ background: "#007C41" }}
+                    dateInnerStyle={{ background: '#2196f3' }}
                   >
                     <MDBCard className="px-5 pb-5 pt-5">
                       <MDBCardTitle>
@@ -62,7 +62,7 @@ export class Experience extends Component {
                   <TimelineItem
                     key="002"
                     dateText="May 2017 – Dec 2017"
-                    dateInnerStyle={{ background: "#0099CC" }}
+                    dateInnerStyle={{ background: '#2196f3' }}
                   >
                     <MDBCard className="px-5 pb-5 pt-5">
                       <MDBCardTitle>
