@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import {
   MDBRow,
   MDBCol,
@@ -8,9 +8,9 @@ import {
   MDBIcon,
   MDBView,
   MDBBtn
-} from 'mdbreact';
+} from "mdbreact";
 
-import about from '../assets/about.jpg';
+import about from "../assets/about.jpg";
 
 export class About extends Component {
   render() {
@@ -37,9 +37,9 @@ export class About extends Component {
                 <p>
                   My name is Jacob, and I am currently in my final year of
                   Computing Science at University of Alberta. During my time at
-                  the university I have had the opporutunity to work on all
-                  kinds of projects ranging in fields as broad as medicine to
-                  video games. It has been a blast and I wouldn't change it for
+                  the university I have had the opportunity to work on all kinds
+                  of projects ranging in fields as broad as medicine to video
+                  games. It has been a blast and I wouldn't change it for
                   anything else.
                 </p>
                 <p>
